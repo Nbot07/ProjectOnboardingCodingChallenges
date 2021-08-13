@@ -1,0 +1,30 @@
+
+public class BinaryTreeLevelTraversal {
+	
+	public class Node {
+		public int data;
+		public Node left;
+		public Node right;
+		Node(int _data){
+			data = _data;
+			left = right = null;
+		}
+	}
+	
+	public class BinTree {
+		public Node root;
+		BinTree(Node node){
+			root = node;
+		}
+		
+		public void levelTraversal() {
+			
+		}
+	}
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}
